@@ -1,0 +1,263 @@
+
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+@font-face{
+    src: url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Light.ttf);
+    font-family: Merriweather;
+}
+
+@keyframes CloudTop {
+    0%{
+        opacity: 1;
+        transform: translateX(95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-95vw);
+    }
+}
+@keyframes CloudMid {
+    0%{
+        opacity: 1;
+        transform: translateX(-95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(95vw);
+    }
+}
+@keyframes CloudBottom {
+    0%{
+        opacity: 1;
+        transform: translateX(95vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-95vw);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    text-align: center;
+}
+.header-title{
+    font-family: Sacramento;
+    font-size: 9rem;
+    color: blanchedalmond;
+}
+
+.header-sub{
+    font-family: Montserrat;
+    font-size: 3rem;
+    color:violet;
+}
+
+
+.home-header{
+background: linear-gradient(to bottom, midnightblue,darkviolet,fuchsia,orange, red);
+height: 100vh;
+position: relative;
+overflow: hidden;
+padding-top: 5rem;
+}
+
+
+.cloud-top{
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+    animation: CloudTop 19s infinite linear;
+}
+
+.cloud-mid{
+    position: absolute;
+    right: 50rem;
+    top: 20rem;
+    animation: CloudMid 15s infinite linear;
+}
+.cloud-bottom{
+    position: absolute;
+    left: 35rem;
+    top: 36rem;
+    animation: CloudBottom 25s infinite linear;
+}
+.moon{
+    width: 15rem;
+    top: 8rem;
+    position: absolute;
+    left: 8rem;
+}
+.star{
+    width: 60rem;
+    top: 1rem;
+    position: absolute;
+    left: 1rem;
+}
+.starry{
+    width: 40rem;
+    top: 0rem;
+    position: absolute;
+    right: 10rem;
+}
+.mountain{
+    position: relative;
+    bottom: -6rem;
+    left: 30rem;
+    width: 70rem;
+
+}
+.home-sec-intro{
+    background: white;
+    border-top: black;
+    border-top-style: solid;
+    opacity: inherit;
+    position: relative;
+    height: 41vh;
+    padding-top: 1rem;
+} 
+.say{
+    font-family: Sacramento;
+    font-size: 3.5rem;
+    color: midnightblue;
+}
+.summary{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    color: black;
+}
+.myimage{
+    width: 15rem;
+    border-radius: 100%;
+    position: relative;
+    border-style: solid;
+    border: weight(1px);
+}
+
+
+.home-sec-skills{
+    background: linear-gradient(to top, midnightblue,purple, deeppink, pink, white);
+    height: 108vh;
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.myskills{
+    font-family: Sacramento;
+    font-size: 50px;
+    color: midnightblue;
+}
+
+.article-container{
+    width: 40%;
+    margin: auto;
+    overflow: hidden; 
+    line-height: 3;
+}
+.article-container2{
+    width: 40%;
+    margin: auto;
+    overflow: hidden; 
+    line-height: 2.5;
+}
+
+.skills-img-webdesign{
+    margin-top: 5rem;
+    border-radius: 100%;
+    width: 10rem;
+    float: left;
+    margin-right: 50px;
+}
+.skills-webdesign{
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 1.7rem;
+}
+
+.skills-p-webdesign{
+    font-family: Merriweather;
+    clear: right;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.skills-img-graphic{
+    margin-top: 4rem;
+    width: 13rem;
+    float: left;
+    margin-right: 25px;
+}
+.skills-graphic{
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 1.7rem;
+}
+.skills-p-graphic{
+    font-family: Merriweather;
+    clear: right;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.getin{
+    font-family: Sacramento;
+    font-size: 40px;
+    color: blanchedalmond;
+}
+.know{
+    font-family: Merriweather;
+    font-size: 15px;
+    color: black;
+}
+.contactme{
+    border-radius: 10%;
+    border-color: black;
+    background-color:deeppink;
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.hitme{
+    font-family: Montserrat;
+    font-size: 12px;
+    color: black;
+}
+.home-footer{
+    border-top: black;
+    border-top-style: solid;
+    background: midnightblue;
+    height: 10vh;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.facebook{
+    text-decoration: none;
+}
+.instagram{
+    text-decoration: none;
+}
+.twitter{
+    text-decoration: none;
+}
+.pinterest{
+    text-decoration: none;
+}
+.behance{
+    text-decoration: none;
+}
+
+
